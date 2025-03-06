@@ -1,0 +1,25 @@
+div {
+    width: 100%;
+    min-width: 300px;
+    max-width: 800px;
+    height: 200px;
+    background: red;
+}
+
+/*---x---*/
+
+.box {                            /* min-content : El tamaño del elemento debe ser */
+    background: indigo;         /* el mínimo posible para mostrar su contenido. */
+    color: white;
+    height: 150px;                /* max-content : El tamaño del elemento debe ser */
+    margin: 1rem 0;               /* el máximo posible para mostrar su contenido. */
+  }
+                                  /* fit-content(size) : El tamaño debe ser el mínimo */
+  .min { width: min-content; }    /* posible, sin superar el tamaño de size. */
+  .max { width: max-content; }
+
+  /* --- x --- x --- x --- */
+
+img {
+    aspect-ratio: 1 / 1;        /* Evitamos que se deforme la imagen */
+}
